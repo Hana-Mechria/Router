@@ -1,0 +1,122 @@
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.App{
+  background-color: gray;
+  height: 100vh;
+  overflow-x: hidden;
+  
+ display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ gap: 10px;
+}
+.Navigation{
+  background-color: black;
+  /* height: 15vh; */
+  width: 100vw;
+  /* border: 1px solid rgb(75, 76, 78); */
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+  /* text-decoration: none; */
+  
+}
+
+.Navigation h3{
+  color: white;
+  
+}
+.Navigation img{
+  width: 100px;
+  height: 60px;
+
+}
+.Navigation input{
+  padding :10px 20pX;
+  font-size: 20px;
+  min-width: 30vw;
+  border-radius: 4px;
+}
+.movies{
+
+display: flex;
+margin-top: 1cm;
+align-items: center;
+gap: 20px;
+flex-wrap: wrap; 
+justify-content: center;
+/* align-items: center; */
+}
+.card
+{
+  color: black;
+width: 400px;
+ height: 500px; 
+ margin-left:2px ;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ flex-wrap: wrap;
+ align-items: center;
+ border-radius: 5px;
+ text-decoration: none;
+ text-decoration-style: none;
+-moz-text-decoration-line: none;
+ border: 3px solid rgba(92, 92, 92, 0.048);
+ }
+ a {
+  text-decoration: none;
+ }
+
+ .card:hover {
+  box-shadow: -1px 4px 56px -15px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: -1px 4px 56px -15px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: -1px 4px 56px -15px rgba(0, 0, 0, 0.62);
+}
+
+
+
+
+
+.card img{
+  width: 350px;
+  height: 210px;
+}
+
+
+.carte{
+  width: 80vw;
+  height: 60vh;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+ 
+}
+
+.carte iframe{
+  width: 50%;
+  height: 100%;
+}
+
+
+.footer {
+  
+  background-color: rgb(5, 5, 5);
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  margin-bottom: 10px;
+  /* padding-top: 70px; */
+  /* gap: 7px; */
+}
